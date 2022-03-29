@@ -23,29 +23,31 @@
               <img src="images/logo.png" alt="" class="imagelogo"/>
             </div>
 
+
+
             <!-- 0. GENERAL LEGEND -->
             <div class='legend-box'>
 
                <!-- 1. CATEGORÍAS -->
                <!-- title -->
-               <div class='title-container'>
+               <!-- <div class='title-container'>
                   <p class='subtitle'>Categorías</p>
-               </div>
+               </div> -->
                <!-- buttons -->
                <div class='button-container2'>
-                  <button type="button" class="btn btn-outline-light" id='b_obras'>Obras</button>
-                  <button type="button" class="btn btn-outline-light" id='b_trayectoria'>Trayectoria</button>
-                  <button type="button" class="btn btn-outline-light" id='b_publicacion'>Publicaciones</button>
-                  <button type="button" class="btn btn-outline-light" id='b_programa'>Programas docentes</button>
-                  <button type="button" class="btn btn-outline-light" id='b_acciones'>Acciones</button>
-                  <button type="button" class="btn btn-outline-light" id='b_all'>Todas</button>
+                  <button type="button" class="btn btn-cat" id='b_obras'>Obras</button>
+                  <button type="button" class="btn btn-cat" id='b_trayectoria'>Trayectoria</button>
+                  <button type="button" class="btn btn-cat" id='b_publicacion'>Publicaciones</button>
+                  <button type="button" class="btn btn-cat" id='b_programa'>Programas docentes</button>
+                  <button type="button" class="btn btn-cat" id='b_acciones'>Acciones</button>
+                  <!-- <button type="button" class="btn btn-cat" id='b_all'>Todas</button> -->
               </div>
                <!-- 1. CATEGORÍAS -->
 
                <!-- 1B. AMBITOS -->
                <!-- title -->
                <div class='title-container'>
-                  <p class='subtitle'>Ámbitos</p>
+                  <p class='subtitle'>Selección del ámbito</p>
                </div>
                <!-- buttons -->
                <div class='button-container'>
@@ -65,24 +67,23 @@
                </div>
                <!-- buttons -->
                <div class='button-container'>
-                  <button type="button" class="btn btn-outline-light" id='b_obras'>tipo 1</button>
+                  <button type="button" class="btn btn-outline-light" id='corop_obras'>tipo 1</button>
                   <button type="button" class="btn btn-outline-light" id='corop_or'>tipo 2</button>
                   <button type="button" class="btn btn-outline-light" id='corop_or'>tipo 3</button>
               </div>
                <!-- 2. TIPO DE OBRAS -->
+
+
 
                <!-- 3. ESCALA -->
                <!-- title -->
                <div class='title-container'>
                   <p class='subtitle'>Escala</p>
                </div>
-               <!-- buttons -->
-               <div class='button-container'>
-                  <button type="button" class="btn btn-outline-light" id='b_escala1'>S</button>
-                  <button type="button" class="btn btn-outline-light" id='b_escala2'>M</button>
-                  <button type="button" class="btn btn-outline-light" id='b_escala3'>L</button>
-                  <button type="button" class="btn btn-outline-light" id='b_escala4'>XL</button>
-              </div>
+               <!-- 0. mapbox example/tutorial -->
+               <div id="map"></div>
+               <nav id="filter-group_escala" class="filter-group"></nav>
+               <!-- 0. mapbox example/tutorial -->
                <!-- 3. ESCALA -->
 
                <!-- 4. USOS -->
@@ -90,15 +91,10 @@
                <div class='title-container'>
                   <p class='subtitle'>Usos</p>
                </div>
-              <!-- dropdown -->
-              <div class="dropdown dropbtnpackage">
-                <button onclick="myFunction()" class="dropbtn">Selecciona un uso</button>
-                <div id="dropdown1" class="dropdown-content">
-                  <a href="#home">Uso 1</a>
-                  <a href="#about">Uso 2</a>
-                  <a href="#contact">Uso 3</a>
-                </div>
-              </div>
+               <!-- 0. mapbox example/tutorial -->
+               <div id="map"></div>
+               <nav id="filter-group_usos" class="filter-group"></nav>
+               <!-- 0. mapbox example/tutorial -->
               <!-- 4. USOS -->
 
               <!-- 5. INDICADORES DE IMPACTO -->
@@ -106,47 +102,8 @@
               <div class='title-container'>
                  <p class='subtitle'>Impacto</p>
               </div>
+              <!-- 5. INDICADORES DE IMPACTO -->
 
-              <div class="dropdown dropbtnpackage">
-             <!-- dropdown 1-->
-             <div class="dropdown">
-               <button onclick="myFunction()" class="dropbtn">Sociedad</button>
-               <div id="dropdown2" class="dropdown-content">
-                 <a href="#home">Uso 1</a>
-                 <a href="#about">Uso 2</a>
-                 <a href="#contact">Uso 3</a>
-               </div>
-             </div>
-             <!-- dropdown 2-->
-             <div class="dropdown">
-               <button onclick="myFunction()" class="dropbtn">Economía</button>
-               <div id="dropdown3" class="dropdown-content">
-                 <a href="#home">Uso 1</a>
-                 <a href="#about">Uso 2</a>
-                 <a href="#contact">Uso 3</a>
-               </div>
-             </div>
-             <!-- dropdown 3-->
-             <div class="dropdown">
-               <button onclick="myFunction()" class="dropbtn">Medio Ambiente</button>
-               <div id="dropdown4" class="dropdown-content">
-                 <a href="#home">Uso 1</a>
-                 <a href="#about">Uso 2</a>
-                 <a href="#contact">Uso 3</a>
-               </div>
-              <!-- dropdown 4-->
-             </div>
-             <div class="dropdown">
-               <button onclick="myFunction()" class="dropbtn">Impacto transversal</button>
-               <div id="dropdown5" class="dropdown-content">
-                 <a href="#home">Uso 1</a>
-                 <a href="#about">Uso 2</a>
-                 <a href="#contact">Uso 3</a>
-               </div>
-             </div>
-             <!-- 5. INDICADORES DE IMPACTO -->
-
-              </div>
             </div>
            <!-- FOOTER -->
           <footer id="footer">
